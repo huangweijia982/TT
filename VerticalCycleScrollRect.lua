@@ -1,6 +1,8 @@
 ---@class VerticalCycleScrollRect
 VerticalCycleScrollRect = class("VerticalCycleScrollRect",CycleScrollRect)
 
+
+
 --更新显示
 function VerticalCycleScrollRect:updataShow()
     for i = 1, #self.itemRTLs do
